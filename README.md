@@ -1,13 +1,28 @@
-About r-memisc
-==============
-
-Home: http://memisc.elff.eu,https://github.com/melff/memisc/
-
-Package license: GPL-2.0-only
+About r-memisc-feedstock
+========================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-memisc-feedstock/blob/main/LICENSE.txt)
 
+About r-memisc
+--------------
+
+Home: https://www.elff.eu/software/memisc/
+
+Package license: GPL-2.0-only
+
 Summary: An infrastructure for the management of survey data including value labels, definable missing values, recoding of variables, production of code books, and import of (subsets of) 'SPSS' and 'Stata' files is provided. Further, the package allows to produce tables and data frames of arbitrary descriptive statistics and (almost) publication-ready tables of regression model estimates, which can be exported to 'LaTeX' and HTML.
+
+Development: https://github.com/melff/memisc/
+About r-memisc
+--------------
+
+Home: https://www.elff.eu/software/memisc/
+
+Package license: GPL-2.0-only
+
+Summary: An infrastructure for the management of survey data including value labels, definable missing values, recoding of variables, production of code books, and import of (subsets of) 'SPSS' and 'Stata' files is provided. Further, the package allows to produce tables and data frames of arbitrary descriptive statistics and (almost) publication-ready tables of regression model estimates, which can be exported to 'LaTeX' and HTML.
+
+Development: https://github.com/melff/memisc/
 
 Current build status
 ====================

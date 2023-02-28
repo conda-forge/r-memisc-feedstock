@@ -14,15 +14,17 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
+  missing_dso_whitelist:
+    - '*/R.dll'            # [win]
 
 requirements:
   build:
-    - {{ compiler('c') }}              # [not win]
-    - {{ compiler('m2w64_c') }}        # [win]
+    - {{ compiler('c') }}          # [not win]
+    - {{ compiler('m2w64_c') }}    # [win]
     - {{ posix }}filesystem        # [win]
     - {{ posix }}make
     - {{ posix }}sed               # [win]
@@ -51,7 +53,8 @@ test:
     - "\"%R%\" -e \"library('memisc')\""  # [win]
 
 about:
-  home: http://memisc.elff.eu,https://github.com/melff/memisc/
+  home: https://www.elff.eu/software/memisc/
+  dev_url: https://github.com/melff/memisc/
   license: GPL-2.0-only
   summary: An infrastructure for the management of survey data including value labels, definable
     missing values, recoding of variables, production of code books, and import of (subsets
