@@ -1,4 +1,4 @@
-{% set version = '0.99.31.3' %}
+{% set version = "0.99.31.6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/memisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/memisc/memisc_{{ version }}.tar.gz
-  sha256: 054bd04fdbb8523b81ec3958084b4493bf7657f7f2326b414a98e9a8f68b786a
+  sha256: 52336b4ffc6e60c3ed10ccc7417231582b0d2e4c5c3b2184396a7d3ca9c1d96e
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -56,11 +56,8 @@ about:
   home: https://www.elff.eu/software/memisc/
   dev_url: https://github.com/melff/memisc/
   license: GPL-2.0-only
-  summary: An infrastructure for the management of survey data including value labels, definable
-    missing values, recoding of variables, production of code books, and import of (subsets
-    of) 'SPSS' and 'Stata' files is provided. Further, the package allows to produce
-    tables and data frames of arbitrary descriptive statistics and (almost) publication-ready
-    tables of regression model estimates, which can be exported to 'LaTeX' and HTML.
+  summary: An infrastructure for the management of survey data including value labels, definable missing values, recoding of variables, production of code books, and import of (subsets of) 'SPSS' and 'Stata' files is provided. Further, the package allows to produce tables and data frames of arbitrary descriptive statistics
+    and (almost) publication-ready tables of regression model estimates, which can be exported to 'LaTeX' and HTML.
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
