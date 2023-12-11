@@ -3,6 +3,7 @@ About r-memisc-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-memisc-feedstock/blob/main/LICENSE.txt)
 
+
 About r-memisc
 --------------
 
@@ -13,6 +14,7 @@ Package license: GPL-2.0-only
 Summary: An infrastructure for the management of survey data including value labels, definable missing values, recoding of variables, production of code books, and import of (subsets of) 'SPSS' and 'Stata' files is provided. Further, the package allows to produce tables and data frames of arbitrary descriptive statistics and (almost) publication-ready tables of regression model estimates, which can be exported to 'LaTeX' and HTML.
 
 Development: https://github.com/melff/memisc/
+
 About r-memisc
 --------------
 
@@ -157,7 +159,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance

@@ -1,4 +1,4 @@
-{% set version = "0.99.31.6" %}
+{% set version = "0.99.31.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/memisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/memisc/memisc_{{ version }}.tar.gz
-  sha256: 52336b4ffc6e60c3ed10ccc7417231582b0d2e4c5c3b2184396a7d3ca9c1d96e
+  sha256: b403185850520db18ebd608df85c76df80e6c64af428cdc4e49c2fe487483637
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
