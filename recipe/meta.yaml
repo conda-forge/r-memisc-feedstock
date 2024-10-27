@@ -1,4 +1,4 @@
-{% set version = "0.99.31.8" %}
+{% set version = "0.99.31.8.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/memisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/memisc/memisc_{{ version }}.tar.gz
-  sha256: b9f6a68a19eb4a86da0adabb407cfa06f751ded94164fa7d572cc93b28293344
+  sha256: 529d57dfe3778caa04f20823422401c76a039217dd1ec3ab517aeb3ed220130f
 
 build:
   number: 0
